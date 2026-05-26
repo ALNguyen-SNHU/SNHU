@@ -14,3 +14,5 @@ public class Divide extends AbstractOperation implements BinaryOperation {
 		return "/";
 	}
 }
+
+// ...MAYBE SIX FEET AIN'T SO FAR DOWN.
