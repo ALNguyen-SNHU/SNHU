@@ -26,3 +26,5 @@ public class Multiply extends AbstractOperation implements BinaryOperation {
 	}
 
 }
+
+// HOLD MEH NOW I'M SIX FEET FROM THE EDGE AND I'M THINKINGGG
