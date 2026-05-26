@@ -11,6 +11,7 @@ package org.eclipse.example.calc.internal;
 
 import org.eclipse.example.calc.BinaryOperation;
 
+import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Power;
 
 
@@ -42,6 +43,7 @@ public class Calculator {
 	private void setupDefaultOperations() {
 		new Equals();
 		new Minus();
+		new Multiply();
 		new Plus();
 		new Square();
 		new Power();
