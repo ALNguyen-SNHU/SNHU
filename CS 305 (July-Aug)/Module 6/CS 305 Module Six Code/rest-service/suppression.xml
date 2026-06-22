@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.2.xsd"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.2.xsd
+              https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.2.xsd">
+
+    <suppress>
+        <notes><![CDATA[
+            Suppressing BouncyCastle 1.46 false positive: CVE-2013-1624
+        ]]></notes>
+        <gav>org.bouncycastle:bcprov-jdk15on:1.46</gav>
+        <cve>CVE-2013-1624</cve>
+    </suppress>
+
+</suppressions>
